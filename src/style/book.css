@@ -1,0 +1,29 @@
+/* book.css */
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .book-table th, .book-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .book-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .delete-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #e04c2b;
+  }
